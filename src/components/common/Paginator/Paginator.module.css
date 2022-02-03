@@ -1,0 +1,46 @@
+.paginator{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.selectedPage{
+    font-weight: bold;
+    color: gold;
+    margin-right: 15px;
+    padding: 12px 12px;
+    border: 2px solid gold;
+}
+span{
+
+}
+.page{
+    margin-right: 15px;
+    padding: 12px 12px;
+    border: 1px solid white;
+}
+.pages{
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 10px;
+
+}
+.button{
+    width: 30px;
+    height: 30px;
+    color: inherit;
+    font: inherit;
+    background-color: #2e2c2c;
+    border: none;
+    bottom: 5px;
+    position: relative;
+
+}
+.buttonImg{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+}

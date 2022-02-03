@@ -1,0 +1,98 @@
+.formSummaryError{
+
+}
+.formSummaryErrorText{
+    border: solid red 2px;
+    padding: 5px;
+    color: red;
+}
+.loginPage{
+
+}
+.loginPageInner{
+    width: 300px;
+    height: auto;
+    text-align: center;
+    background-color: #262c3b;
+    border: 1px solid #0632cf;
+    border-radius: 10px;
+    padding: 15px 0 15px 0;
+    margin: 150px  auto 200px  auto;
+}
+.loginPageInner:hover{
+    box-shadow: 0 0 8px 2px #0632cf;
+}
+.loginTitle{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 20px;
+    text-align: center;
+}
+.loginForm{
+
+}
+.loginInput{
+    width: 140px;
+    color: white;
+    background-color: #262c3b;
+    padding: 10px 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: #0632cf solid 2px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.loginInput:focus{
+    width: 200px;
+    text-align: center;
+    border: #e0f213 solid 2px;
+    transition: 0.5s;
+    outline: 0;
+}
+.checkbox{
+    display: flex;
+    margin-left: 78px;
+    margin-top: 15px;
+}
+.checkboxInput{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+.checkboxText{
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.loginButton{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    width: 80px;
+    color: white;
+    background-color: #109c0e;
+    border: solid 2px #109c0e;
+    border-radius: 20px;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+
+.loginButton:hover{
+    color: #109c0e;
+    background-color: #262c3b;
+    transition: 0.5s;
+}
+.loginButton:active{
+    background-color: #e0f213;
+    border: #e0f213 solid 2px;
+    transition: 0.2s;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-text-fill-color: white;
+    -webkit-box-shadow: 0 0 0px 1000px #262c3b inset;
+    transition: background-color 5000s ease-in-out 0s;
+}

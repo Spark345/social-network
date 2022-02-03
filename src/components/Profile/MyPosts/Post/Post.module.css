@@ -1,0 +1,43 @@
+.post{
+    width: 350px;
+    margin-bottom: 25px;
+    border: #109c0e solid 2px;
+    border-radius: 20px;
+    padding: 15px 15px;
+}
+.postItem{
+    display: flex;
+}
+.postBlockImg{
+    width: 50px;
+    height: 50px;
+}
+.postImg{
+    border-radius: 25px;
+}
+.postText{
+    font-family: 'Oxygen';
+    font-size: 18px;
+    line-height: 19px;
+    padding-top: 18px;
+    margin-left: 15px;
+}
+.like{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.likeImg{
+
+}
+.likeImgIcon{
+    width: 20px;
+    height: 20px;
+
+}
+.likeNumber{
+    font-family: 'Oxygen';
+    font-size: 18px;
+    line-height: 19px;
+    margin-left: 10px;
+}

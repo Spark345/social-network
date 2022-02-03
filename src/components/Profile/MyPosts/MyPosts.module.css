@@ -1,0 +1,57 @@
+.postsBlock{
+    padding: 10px;
+}
+.postsTitle{
+    font-family: 'Oxygen';
+    font-size: 21px;
+}
+.form{
+
+}
+.posts{
+    margin-top: 20px;
+}
+.input{
+
+}
+.inputItem{
+    resize: none;
+    width: 210px;
+    height: 50px;
+    background-color: #2e2c2c;
+    color: white;
+    border: #109c0e solid 2px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    outline: 0;
+}
+.inputItem:hover{
+    border: #e0f213 solid 2px;
+    width: 250px;
+    height: 70px;
+    transition: 0.5s;
+}
+.addPostBtn{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    width: 100px;
+    color: white;
+    background-color: #109c0e;
+    border: solid 2px #109c0e;
+    border-radius: 20px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.addPostBtn:hover{
+    background-color: #2e2c2c;
+    color: #109c0e;
+    transition: 0.5s;
+}
+.addPostBtn:active{
+    background-color: #e0f213;
+    border: #e0f213 solid 2px;
+    transition: 0.2s;
+
+}

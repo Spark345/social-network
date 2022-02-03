@@ -1,0 +1,64 @@
+.header{
+    grid-area: h;
+    border: green solid 1px;
+}
+.headerInner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.headerImg{
+    width: 50px;
+    margin-left: 20px;
+}
+.loginBlock {
+    float: right;
+}
+.loginItems{
+    display: flex;
+}
+.loginPhoto{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.loginName{
+    padding-left: 10px;
+
+}
+.logoutButton{
+    font-weight: 600;
+    color: white;
+    background-color: #109c0e;
+    display: inline-block;
+    border: solid 2px #109c0e;
+    border-radius: 25px;
+    padding: 10px 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+.loginLinkText{
+    font-weight: 600;
+    color: white;
+    background-color: #109c0e;
+    display: inline-block;
+    text-align: center;
+    border: solid 2px #109c0e;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin-right: 20px;
+}
+.logoutButton:hover,
+.loginLinkText:hover{
+    color: #109c0e;
+    background-color: #2e2c2c;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.logoutButton:active,
+.loginLinkText:active{
+    background-color: #e0f213;
+    border: #e0f213 solid 2px;
+    transition: 0.2s;
+}

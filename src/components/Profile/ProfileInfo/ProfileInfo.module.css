@@ -1,0 +1,30 @@
+.content{
+
+}
+.content img{
+    width: 100%;
+
+}
+.topImg{
+    height: 100px;
+    object-fit: cover;
+}
+.discriptionBlock{
+    padding: 10px;
+}
+.fullName{
+
+}
+.ava{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.avaItem{
+    border-radius: 100px;
+}
+.photoWork{
+    width: 200px;
+    height: 200px;
+}
