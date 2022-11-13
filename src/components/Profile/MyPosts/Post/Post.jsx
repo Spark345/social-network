@@ -3,6 +3,7 @@ import like from "../../../../assets/images/like.svg"
 
 
 const Post = (props) =>{
+
     return (
         <div className={classes.post}>
             <div className={classes.postItem}>
@@ -12,6 +13,7 @@ const Post = (props) =>{
                 <div className={classes.postText}>
                     {props.message}
                 </div>
+                <button onClick={() => {props.removePost(props.postId - 1)}}>Удалить</button>
             </div>
             <div className={classes.like}>
                 <div className={classes.likeImg}>
